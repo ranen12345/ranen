@@ -2,10 +2,10 @@
 # Part 1: Learning Exercises 
 # input() and and .format()
 
-# name = input("what is thy name, sire?")
-# msg = input ("what is thy command")
-# print(name + "says" + msg)
-# color = input("what is your favourite color?")
+name = input("what is thy name, sire?")
+msg = input ("what is thy command")
+print(name + "says" + msg)
+color = input("what is your favourite color?")
 
 
 

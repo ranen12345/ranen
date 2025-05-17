@@ -94,3 +94,5 @@ print("Every second character: {}".format(skipped_chars))
 
 
 #-----------------------------------------------------------
+
+name = input("what is your name")

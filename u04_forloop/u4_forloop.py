@@ -22,11 +22,9 @@
 #     print(i)
 
 # print multiples of 3 from 3 to 36
-
 # count down from 20 to 10
 # for i in range(3,37,3):
 #     print(i)
-
 # for i in range (20,9,-1):
 #     print(i)
 

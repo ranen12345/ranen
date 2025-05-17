@@ -1,3 +1,19 @@
+# generate a username: 
+# first 3 characters of first name
+# last 3 characters of last name
+# + a 3-digit random number 100 - 999
+# Assume name is only 2 words, Michael Tan >>> mictan568
+
+name = input("What is your name? ")
+username = name.split(" ") # username is now a list
+fname = username[0]
+lname = username[1]
+import random
+username = f"{fname[:3]}{lname[-3:]}{random.randint(100,999)}"
+print(username)
+
+
+
 
 ###########################################################
 # Part 2. IN-CLASS Practice Exercises
@@ -113,9 +129,9 @@
 # Output: "A.B"
  
 
-name = input("Enter your name ").upper()
-namewords = name.split(' ')
-initials = " "
-for word in namewords:
-inititals = initials + word[0] + "."
-print(initials[:-1])
+# name = input("Enter your name ").upper()
+# namewords = name.split(' ')
+# initials = " "
+# for word in namewords:
+# inititals = initials + word[0] + "."
+# print(initials[:-1])

@@ -11,41 +11,41 @@ list1 = [2944, 5490, 2357, 2619, 1177, 451, 8299, 2533, 4682, 6040,
          5972, 7532, 4382, 8311, 6664, 4918, 3656, 3769, 6179, 7720,
          1777, 7149, 2175, 8665, 4586, 5208, 320, 1314, 8950, 4884,
          756, 6196, 5935, 5291, 8619, 2630, 1831, 3127, 4698, 6291]
-#          2478, 5792, 9362, 7348, 8040, 3556, 598, 6187, 8959, 880]
-# bignum = max(list1)
-# print(bignum)
+        #  2478, 5792, 9362, 7348, 8040, 3556, 598, 6187, 8959, 880]
+bignum = max(list1)
+print(bignum)
 
-# smallnum = min(list1)
-# print(smallnum)
-
-
+smallnum = min(list1)
+print(smallnum)
 
 
-# #------------------------------------------------------------
-# # Exercise 2: Calculating the Sum Without Built-In Functions
-# # Write a program to calculate the sum of numbers in a list 
-# # without using sum().
-# # find the position of the biggest and slowest
-# maxnum = list1[0]
-# minnum = list1[0]
 
-# bigpos = 0
-# smallpos = 0
-# count = 0
 
-# for i in list1:
-#     if i >maxnum:
-#         maxnum = i
-#         bigpos = count
+#------------------------------------------------------------
+# Exercise 2: Calculating the Sum Without Built-In Functions
+# Write a program to calculate the sum of numbers in a list 
+# without using sum().
+# find the position of the biggest and slowest
+maxnum = list1[0]
+minnum = list1[0]
 
-#     if i <minnum:
-#         minnum = i
-#         smallpos = count
+bigpos = 0
+smallpos = 0
+count = 0
 
-#     count = count+ 1
+for i in list1:
+    if i >maxnum:
+        maxnum = i
+        bigpos = count
 
-# print(f"the biggest is {maxnum} and it is at {bigpos} ")
-# print(f"the smallest is {minnum} and it is at {smallpos} ")
+    if i <minnum:
+        minnum = i
+        smallpos = count
+
+    count = count+ 1
+
+print(f"the biggest is {maxnum} and it is at {bigpos} ")
+print(f"the smallest is {minnum} and it is at {smallpos} ")
 
 
 
