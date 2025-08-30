@@ -164,5 +164,5 @@ print(f"{first3}{last3}{upper}{lower}{numbers}")
 
 
 
-
+letters = ABCDEFGHIJKLMNOPQRSTUVWXYZ.
 
