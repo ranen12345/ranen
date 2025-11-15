@@ -26,9 +26,7 @@ Save your program. [4]
         
 #         list_usernames.append(username) 
 #         break
-
-# print(list_usernames)
-
+print(list_usernames)
 
 
 
@@ -82,3 +80,6 @@ if gotnumber:
     print("At least 1 number. Accepted") 
 else:
     print("You need at least 1 number in your password.")
+
+
+

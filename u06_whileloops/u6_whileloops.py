@@ -1,3 +1,55 @@
+# 34 - 7
+
+# count = 34
+# while count > 6:
+#     print(count)
+#     count = count - 1
+
+
+# supposed to ask the user to enter an age
+# age must be between 1 to 100
+# age must be an integer
+# if not valid, ask again
+while True:
+    age = input("Enter an age : ")
+    if not age.isdigit():
+        print("age must be a number ")
+    elif int(age) < 1 or int(age) > 100:
+        print("age must be from 1 to 100")
+    else:
+        break
+    
+
+
+
+
+
+#------------------------------------------------------------
+# Exercise 9: Guessing Game
+# Write a program where the user has to guess a random number (generate using ra)
+# between 1 and 10. Keep prompting until they guess correctly.
+# import random
+
+# rannum = random.randint(1, 10) # 
+# while True:
+#     number = input("guess a number ")
+#     if number != rannum:
+#         print ("incorrect try again ")
+#     else:
+#         break
+
+
+
+
+#------------------------------------------------------------
+# Exercise 10: Input Validation for a Password
+# Write a program that keeps asking the user to enter a password.
+# If the password is correct, print "Access granted."
+
+
+
+
+
 # ###################################################
 # # Part 1: Learning Exercises
 
@@ -7,11 +59,6 @@
 
 
 
-count=1
-while count<6:
-    print(count)
-    count=count+1
-`
 
 
 # #------------------------------------------------------------
